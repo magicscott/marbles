@@ -1,0 +1,14 @@
+{
+    "bindGrantJCL": "CUST022.MARBLES.JCL(MARBIND)",
+    "cicsConsole" : "CUST022",
+    "cicsProgram" : "MARBLE22",
+    "cicsRegion"  : "CICSTRN1",
+    "cicsTran"    : "MB22",
+    "db2QueryJCL" : "CUST022.MARBLES.JCL(MARBDB2)",
+    "devDBRMLIB"  : "PRODUCT.NDVR.MARBLES.MARBLES.D1.DBRMLIB",
+    "devLOADLIB"  : "PRODUCT.NDVR.MARBLES.MARBLES.D1.LOADLIB",
+    "marbleColor" : "ROSE",
+    "testDBRMLIB" : "BRIGHT.MARBLES.DBRMLIB",
+    "testElement" : "MARBLE22",
+    "testLOADLIB" : "CICS.TRAIN.MARBLES.LOADLIB"
+}

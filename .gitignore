@@ -1,0 +1,5 @@
+JCL/
+mochawesome-report/
+node_modules/
+endevor-report*.txt
+MARBLE*.COBOL

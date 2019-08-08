@@ -163,14 +163,14 @@ describe('Marbles', function () {
    * Test Plan
    * Delete the marble to reset inventory to zero (Delete will be tested later)
    * 
-   * Create a marble
-   * Verify that there is one marble in the inventory
+   * Create a single marble with cost one
+   * Verify that there is one marble with cost one in the inventory
    * 
    * Create the marble entry "again"
    * Verify the appropriate error message is returned
    * 
-   * Update marble quantity to 2
-   * Verify that there are five marbles in the inventory
+   * Update marble quantity to two
+   * Verify that there are two marbles in the inventory
    * 
    * Delete the marble from the database
    * Verify there are no marbles in the inventory
@@ -191,7 +191,7 @@ describe('Marbles', function () {
       })
     });
 
-    it.only('should create a single marble', function (done) {
+    it.only('should create a single marble with cost one', function (done) {
       // Create marble
       createMarble(COLOR, 1, 1, function(err, data, stderr){
         if(err){

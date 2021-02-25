@@ -4,6 +4,7 @@ var PluginError = require('plugin-error');
 var cmd = require('node-cmd');
 var config = require('./config.json');
 
+
 /**
  * await Job Callback
  * @callback awaitJobCallback
@@ -36,7 +37,7 @@ function awaitJobCompletion(jobId, maxRC=0, callback, tries = 30, wait = 1000) {
       }
       );
   } else {
-      callback(new Error(jobId + " timed out."));
+      callback(new Error(jobId + " it timed out."));
   }
 }
 
